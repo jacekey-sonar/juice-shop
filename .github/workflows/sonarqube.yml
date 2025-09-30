@@ -95,4 +95,4 @@ jobs:
       - name: Check Quality Gate Status
         run: |
           echo "SonarQube analysis completed."
-          echo "View detailed results at: ${{ secrets.SONAR_HOST_URL }}/dashboard?id=jacekey-sonar_juice-shop"
+          echo "View detailed results at: https://sonarcloud.io/dashboard?id=jacekey-sonar_juice-shop"
